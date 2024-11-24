@@ -1,0 +1,24 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.input-container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px; /* Adjusts the spacing between input boxes */
+  width: 200px; /* Set the width as needed */
+}
+.input-container input {
+  padding: 1px;
+  font-size: 16px;
+}
+

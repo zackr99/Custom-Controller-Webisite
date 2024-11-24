@@ -1,0 +1,60 @@
+/* App.css */
+
+.app-container {
+  display: flex;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+.sidebar {
+  width: 250px;
+  background-color: #111;
+  color: white;
+  padding: 20px;
+  height: 100vh;
+  position: fixed; /* Fix the sidebar in place */
+  top: 0;
+  left: 0;
+}
+
+.sidebar ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.sidebar ul li {
+  margin: 15px 0;
+}
+
+.sidebar ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+.sidebar ul li a:hover {
+  text-decoration: underline;
+}
+
+.content {
+  margin-left: 250px; /* Create space for the sidebar */
+  padding: 20px;
+  width: calc(100% - 250px); /* Adjust content width based on sidebar width */
+  background-color: #f9f9f9;
+  overflow-y: auto; /* Handle overflow in content */
+}
+/* Style inputs */
+.input-container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px; /* Adjusts the spacing between input boxes */
+  width: 200px; /* Set the width as needed */
+}
+
+.input-container input {
+  padding: 8px;
+  font-size: 16px;
+}
+
